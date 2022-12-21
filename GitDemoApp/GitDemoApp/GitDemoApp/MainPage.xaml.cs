@@ -17,7 +17,7 @@ namespace GitDemoApp
 
         private void FrmPage1_Tapped(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new Page1());
         }
 
         private void FrPage2_Tapped(object sender, EventArgs e)

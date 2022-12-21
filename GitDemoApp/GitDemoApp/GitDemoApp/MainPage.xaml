@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="GitDemoApp.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView>
+        <StackLayout
+            Margin="0"
+            Padding="0"
+            HorizontalOptions="CenterAndExpand"
+            Spacing="20"
+            VerticalOptions="CenterAndExpand">
+            <Frame
+                Padding="5,0"
+                BackgroundColor="#1ABC9C"
+                CornerRadius="10"
+                HeightRequest="50"
+                WidthRequest="200">
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="16"
+                    HorizontalTextAlignment="Center"
+                    Text="Page1"
+                    TextColor="White"
+                    VerticalTextAlignment="Center" />
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="FrmPage1_Tapped" />
+                </Frame.GestureRecognizers>
+            </Frame>
+
+            <Frame
+                Padding="5,0"
+                BackgroundColor="#1ABC9C"
+                CornerRadius="10"
+                HeightRequest="50"
+                WidthRequest="200">
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="16"
+                    HorizontalTextAlignment="Center"
+                    Text="Page2"
+                    TextColor="White"
+                    VerticalTextAlignment="Center" />
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="FrPage2_Tapped" />
+                </Frame.GestureRecognizers>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

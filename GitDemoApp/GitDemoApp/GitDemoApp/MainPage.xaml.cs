@@ -22,7 +22,7 @@ namespace GitDemoApp
 
         private void FrPage2_Tapped(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new Page2());
         }
     }
 }

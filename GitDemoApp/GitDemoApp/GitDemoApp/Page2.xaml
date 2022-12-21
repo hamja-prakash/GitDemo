@@ -9,6 +9,12 @@
                 HorizontalOptions="CenterAndExpand"
                 Text="Welcome to Page 2"
                 VerticalOptions="CenterAndExpand" />
+
+            <Label
+                FontSize="20"
+                HorizontalOptions="CenterAndExpand"
+                Text="Git Demo"
+                VerticalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
